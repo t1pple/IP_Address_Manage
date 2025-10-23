@@ -1,0 +1,25 @@
+name: ip_address_manager
+publish_to: 'none'
+version: 1.0.0+2
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.0.5
+  sqflite: ^2.3.3
+  path: ^1.9.0
+  intl: ^0.19.0
+  flutter_slidable: ^3.1.0
+  csv: ^6.0.0
+  google_fonts: ^6.2.1   
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
